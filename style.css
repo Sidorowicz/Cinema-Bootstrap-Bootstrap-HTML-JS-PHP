@@ -1,0 +1,1178 @@
+@media only screen and (min-width : 1224px) {
+
+
+body{
+	margin:0;
+	background-image:url(bg.png);
+	background-repeat: no-repeat;
+	background-size: 100% 800px;
+		cursor: auto;
+		font-family: "Gill Sans Extrabold", Helvetica, sans-serif ;
+}
+.hallView{
+	width:920px;
+	height:480px;
+	background-color: transparent;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:white;
+	padding:20px;
+	border-radius:20px;
+	overflow:hidden;
+	padding-top:100px;
+}
+main{
+	background-color:white;
+	width:100%;
+	height:100vh;
+	overflow-x:hidden;
+}
+iframe{
+	border:none;
+	background-color:white;
+
+}
+.seat{
+	width:30px;
+	height:30px;
+	background-color:white;
+	border:5px solid black;
+	font-size:25px;
+	text-align:center;
+	float:left;
+	font-size:15px;
+}
+.formeu{
+	width:50%;
+	float:left;
+	text-align:center;
+}
+#empbut{
+	margin-left:45%;
+
+	min-width:120px;
+}
+.seatfiller{
+	width:40px;
+	height:40px;
+	background-color: transparent;
+	float:left;
+}
+
+#reser2{
+	width:120px;
+	margin-left:700px;
+	margin-top:70px;
+
+	width:200px;
+	height:60px;
+	border-radius:20px;
+	margin-bottom:50px;
+}
+
+.seatoccupied{
+	width:30px;
+	height:30px;
+	background-color:gray;
+	border:5px solid black;
+	font-size:25px;
+	text-align:center;
+	float:left;
+	font-size:15px;
+}
+#payf{
+	min-height:10px;
+}
+.movie{
+	float:left;
+	padding:10px;
+	border:1px solid black;
+}
+.hour2{
+	float:left;
+	padding:5px;
+	margin:10px;
+}
+.hour{
+	float:left;
+	padding:5px;
+	margin:10px;
+}
+.hour:hover{
+	background-color:blue;
+	border-radius:20px;
+	color:white;
+
+}
+.hour:active{
+	background-color:red;
+	border-radius:20px;
+	color:white;
+
+}
+
+.hours{
+	float:left;
+	width:600px;
+	border:1px solid black;
+}
+.days{
+	width:40px;
+	height:40px;
+	border:1px solid black;
+	float:left;
+	text-align:center;
+	padding:2px;
+}
+.calendar{
+	height:100px;
+}
+#header{
+	width:1100px;
+	margin-left:auto;
+	margin-right:auto;
+	height:90px;
+	text-shadow: 0 1px 0 rgb(0 0 0 / 89%);
+}
+.header_selection{
+	float:left;
+	margin:30px;
+}
+.header_selection2{
+	float:right;
+	margin:30px;
+}
+.header_selection_logo{
+	float:left;
+	margin:20px;
+	margin-left:30px;
+	font-size:30px;
+}
+#duzeliterki{
+	font-size:30px;
+	width:600px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+}
+#news{
+	width:1100px;
+	margin-left:auto;
+	margin-right:auto;
+	height:420px;
+	border-radius:10px;
+	overflow:hidden;
+}
+#boxunderline{
+	width:1100px;
+	margin-left:auto;
+	margin-right:auto;
+	height:80px;
+	
+	border-bottom-right-radius:10px;
+	border-bottom-left-radius:10px;
+	overflow:hidden;
+	background-image: linear-gradient(to right, #e6b800, yellow);
+	margin-top:-40px;
+	
+}
+.premiera{
+	font-size:10px;
+	background-color:red;
+	width:45px;
+	padding:3px;
+	border-radius:5px;
+	text-shadow: 1px 1px 1px rgb(0 0 0 / 89%);
+	
+}
+.imgtext{
+	font-size:15px;
+	padding-top:100px;
+	padding-left:10px;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+#news_big .imgtext{
+	font-size:40px;
+	padding-top:300px;
+}
+
+#news_big .premiera{
+	font-size:20px;
+	background-color:red;
+	width:90px;
+	padding:5px;
+	border-radius:5px;
+	text-shadow: 1px 1px 1px rgb(0 0 0 / 89%);
+	
+}
+#news_big{
+	width:800px;
+	background-size: 100%;
+	height:420px;
+	float:left;
+	color:white;
+	padding:10px;
+	background-color:yellow;
+	margin-left:auto;
+	margin-right:auto;
+}
+#news_small{
+	width:300px;
+	height:420px;
+	float:left;
+	background-color:red;
+	
+}
+.news_smaller{
+	width:300px;
+	height:140px;
+	display:block;
+	background-size: 100%;
+	color:white;
+	
+}
+#selectioninfo{
+	margin-top:10px;
+	width:1100px;
+	margin-left:auto;
+	margin-right:auto;
+	height:60px;
+
+}
+.dayselection{
+	float:left;
+	border:2px solid black;
+	padding:5px;
+	margin-left:15px;
+	border-radius:10px;
+	width:50px;
+	height:80px;
+	text-align:center;
+
+	background-image:url(circles-light.png);
+
+}
+
+.cinhead{
+	margin:10px;
+	border-bottom:1px solid black;
+	text-align:center;
+}
+
+.selectmore{
+	float:left;
+	width:50%;
+}
+#moviecalendar{
+	width:900px;
+	margin-left:auto;
+	margin-right:auto;
+	min-height:100px;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+.cinema{
+
+	min-height:60px;
+	width:100%;
+	border-bottom:1px dotted black;
+}
+.cinema2{
+
+	min-height:100px;
+	width:100%;
+	text-align:center;
+	
+
+}
+
+.titlec{
+	float:left;
+	margin:15px;
+	height:100%;
+	margin-right:10px;
+	width:350px;
+	overflow:hidden;
+	border-right:1px solid black;
+}
+#footer{
+	width:100%;
+	height:30px;
+	background-color:lightgray;
+	display:block;
+	float:bottom;
+	text-align:center;
+	text-shadow: 0 1px 0 rgb(255 255 255 / 89%);
+}
+#confirmform{
+	display:none;
+	position: fixed;
+width: 800px;
+height: 600px;
+top: 50%;
+left: 50%;
+margin-top: -300px; /* Negative half of height. */
+margin-left: -400px; /* Negative half of width. */
+	background-color:white;
+	border:1px solid black;
+	border-radius: 60px;
+	padding:10px;
+}
+#confirmationx{
+	width:600px;
+	min-height:300px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:white;
+	color:black;
+	padding:60px;
+	border-radius:20px;
+}
+#confirmation{
+	width:1100px;
+	min-height:880px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:white;
+	padding:60px;
+	border-radius:20px;
+}
+#lastimg{
+	width:200px;
+	max-height:400px;
+	float:left;
+	margin-right:20px;
+}
+#titleconf{
+	display:block;
+}
+
+#genreconf{
+	display:block;
+}
+#cinemaconf{
+	width:800px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:20px;
+	border-top:1px solid black;
+}
+#movieconf{
+	width:900px;
+	min-height:400px;
+	margin-left:auto;
+	margin-right:auto;
+
+		border-radius:20px;
+		padding:20px;
+}
+#movieconf2{
+	width:900px;
+	min-height:60px;
+	padding:20px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#f5f9ff;
+			border-radius:20px;
+	margin-top:20px;
+}
+#reser{
+	width:120px;
+	margin-left:400px;
+	margin-top:20px;
+}
+#logss{
+	margin-left:auto;
+	margin-right:auto;
+	width:300px;
+	text-align:center;
+	font-size:30px;
+}
+#logb{
+	width:300px;
+height:50px;
+font-size:30px;
+}
+#logss input{
+width:300px;
+height:50px;
+font-size:30px;
+}
+#cinemaconf{
+	width:800px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:20px;
+	border-top:1px solid black;
+}
+
+#billpage{
+	width:1100px;
+	min-height:100px;
+	margin-left:auto;
+	margin-right:auto;
+	padding:100px;
+	border-radius:80px;
+}
+.seatdesc{
+	width:550px;
+	display:block;
+}
+.seatlabel{
+	width:300px;
+	float:left;
+}
+.seatnumber{
+	width:200px;
+	float:left;
+}
+
+#billpageL{
+	width:550px;
+	min-height:100px;
+	font-size:30px;
+	float:left;
+	background-color:white;
+	border-radius:20px;
+	padding:20px;
+}
+#billpageR{
+	width:250px;
+	min-height:100px;
+	float:left;
+	font-size:30px;
+	text-align:left;
+	margin-left:100px;
+		background-color:white;
+	border-radius:20px;
+	padding:20px;
+	}
+
+#control_panel{
+	width:100vw;
+	min-height:100vh;
+	overflow:scrollbar;
+	background-color:darkred;
+}
+#confirmbtn{
+	margin:20px 20px 20px 180px;
+	width:200px;
+	height:70px;
+	font-size:20px;
+}
+#buttonend{
+	margin:20px 20px 20px 25px;
+	width:200px;
+	height:70px;
+	font-size:20px;
+}
+
+#legenda{
+	width:900px;
+	height:40px;
+	margin-left:auto;
+	margin-right:auto;
+	font-size:20px;
+	tex-align:center;
+	}
+
+
+#priceL{
+width:130px;
+margin-left:auto;
+margin-right:auto;
+}
+#priceR{
+	float:right;
+}
+
+#ticket{
+	font-size:15px;
+	padding:2px;
+}
+
+
+.pricedivider{
+	border-bottom:1px solid black;
+	width:800px;
+	margin-left:auto;
+	margin-right:auto;
+	min-height:100xp;
+}
+
+.kolob{
+	width:20px;
+	height:20px;
+	border-radius:20px;
+	background-color:white;
+	border:1px solid black;
+	float:left;
+	text-align:center;
+	color:black;
+	margin-left:10px;
+	margin-right:20px;
+}
+.f{
+	float:left;
+}
+.kolos{
+	width:20px;
+	height:20px;
+	border-radius:20px;
+	background-color:gray;
+	float:left;
+		text-align:center;
+	color:gray;
+		margin-left:10px;
+	margin-right:20px;
+	border:1px solid black;
+}
+.koloc{
+	width:20px;
+	height:20px;
+	border-radius:20px;
+	background-color:Crimson;
+	float:left;
+		text-align:center;
+	color:Crimson;
+		margin-left:10px;
+	margin-right:20px;
+	border:1px solid black;
+}
+
+#stopka{
+	width:100%;
+	height:400px;
+	background-image: linear-gradient(to left top, lightgray, gray);
+}
+
+#stopkaL{
+	float:left;
+	width:20%;
+	height:400px;
+}
+
+#stopkaC{
+	float:left;
+	width:50%;
+	height:400px;
+}
+
+#stopkaR{
+	float:left;
+	width:30%;
+	height:400px;
+}
+
+.dayselection,.titlec{
+	cursor:pointer;
+}
+
+
+
+
+#formes{
+	width:60%;
+	height:100vh;
+	float:left;
+	background-color :white;
+	overflow-y:scroll;
+	
+}
+#iframes{
+	width:40%;
+	height:100%;
+	float:left;
+	background-color:white;
+	text-align:center;
+	padding-top:5px;
+
+}
+#frame{
+	width:90%;
+	height:400px;
+}
+#sqlt{
+	width:79%;
+}
+.formesin{
+	width:60%;
+	min-height:60px;
+	border-bottom:1px solid black;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+
+
+
+
+#empframe{
+	width:100%;
+	height:80vh;
+	background-color: transparent;
+	background-color:white;
+	overflow:hidden;
+	border-bottom:1px solid black;
+}
+.empdiv{
+	background-color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width : 1224px) {
+
+
+body{
+	margin:0;
+	background-color:white;
+
+}
+#ticket{
+	font-size:15px;
+	padding:2px;
+}
+
+.hallView{
+	width:920px;
+	height:480px;
+background-color: transparent;
+	margin-left:auto;
+	margin-right:auto;
+}
+.seat{
+	width:30px;
+	height:30px;
+	background-color:white;
+	border:5px solid black;
+	font-size:25px;
+	text-align:center;
+	float:left;
+	font-size:20px;
+}
+.seatfiller{
+	width:40px;
+	height:40px;
+background-color: transparent;
+	float:left;
+}
+.seatoccupied{
+	width:30px;
+	height:30px;
+	background-color:gray;
+	border:5px solid black;
+	font-size:25px;
+	text-align:center;
+	float:left;
+	font-size:20px;
+}
+#duzeliterki{
+	font-size:40px;
+	width:500px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+
+
+
+.movie{
+	float:left;
+	padding:10px;
+	border:1px solid black;
+}
+.hour{
+	
+	float:left;
+	padding:5px;
+	margin:10px;
+	width:80px;
+	height:50px;
+	font-size:28px;
+}
+.hour:hover{
+	background-color:blue;
+	border-radius:20px;
+	color:white;
+
+}
+.hour:active{
+	background-color:red;
+	border-radius:20px;
+	color:white;
+
+}
+
+
+
+.hours{
+	float:left;
+	width:600px;
+	border:1px solid black;
+}
+.days{
+	width:40px;
+	height:40px;
+	border:1px solid black;
+	float:left;
+	text-align:center;
+	padding:2px;
+}
+.calendar{
+	height:100px;
+}
+#header{
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+	height:90px;
+	text-shadow: 0 1px 0 rgb(0 0 0 / 89%);
+	border-bottom:1px solid black;
+	margin-bottom:20px;
+}
+.header_selection{
+	float:left;
+	margin:30px;
+	font-size:20px;
+}
+.header_selection_logo{
+	float:left;
+	margin:20px;
+	margin-left:30px;
+	font-size:30px;
+}
+
+
+#news{
+
+	width:900px;
+	height:1px;
+}
+#news_big{
+	width:1000px;
+background-size: 100%;
+	height:500px;
+	float:left;
+color:white;
+	padding:10px;
+	margin-left:auto;
+	margin-right:auto;
+
+}
+#news_small{
+display:none;
+}
+.news_smaller{
+	width:300px;
+	height:140px;
+	display:block;
+	background-size: 100%;
+	color:white;
+	
+}
+#selectioninfo{
+	margin-top:10px;
+	width:900px;
+	margin-left:auto;
+	margin-right:auto;
+	height:60px;
+	display:block;
+
+}
+.dayselection{
+	float:left;
+	border:2px solid black;
+	padding:5px;
+	margin-left:15px;
+	border-radius:10px;
+	width:100px;
+	height:80px;
+	text-align:center;
+	font-size:15px;
+	font-weight:bold;
+	background-image:url(circles-light.png);
+	margin:10px;
+
+}
+.selectmore{
+display:block;
+width:100%;
+float:left;
+font-size:30px;
+
+}
+#moviecalendar{
+	width:900px;
+	margin-left:auto;
+	margin-right:auto;
+	min-height:100px;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+.cinema{
+	min-height:60px;
+	width:100%;
+	border-bottom:1px dotted black;
+	float:left;
+	padding-bottom:20px;
+	padding-top:20px;
+	
+}
+.titlec{
+	width:100%;
+	float:left;
+	margin:15px;
+	height:100%;
+	margin-right:10px;
+	font-size:30px;
+	overflow:hidden;
+	border-right:1px solid black;
+	overflow:hidden;
+}
+#footer{
+display:none;
+}
+#confirmform{
+	display:none;
+	position: fixed;
+width: 800px;
+height: 600px;
+top: 50%;
+left: 50%;
+margin-top: -300px; /* Negative half of height. */
+margin-left: -400px; /* Negative half of width. */
+	background-color:white;
+	border:1px solid black;
+	border-radius: 60px;
+	padding:10px;
+}
+
+#confirmation{
+	width:100vw;
+	min-height:650px;
+	margin-left:auto;
+	margin-right:auto;
+
+	padding:100px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#confirmationx{
+	width:100vw;
+	min-height:650px;
+	margin-left:auto;
+	margin-right:auto;
+
+	padding:100px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#timeconf{
+	font-size:20px;
+}
+#lastimg{
+	width:100%;
+	max-height:800px;
+	float:left;
+	margin-right:20px;
+}
+#titleconf{
+	display:block;
+}
+
+#genreconf{
+	display:block;
+}
+#cinemaconf{
+	width:800px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:20px;
+	border-top:1px solid black;
+	font-size:30px;
+}
+#movieconf{
+	width:600px;
+	min-height:400px;
+	margin-left:auto;
+	margin-right:auto;
+
+}
+#priceL{
+width:200px;
+margin-left:auto;
+margin-right:auto;
+}
+.premiera{
+	font-size:10px;
+	background-color:red;
+	width:45px;
+	padding:3px;
+	border-radius:5px;
+	text-shadow: 1px 1px 1px rgb(0 0 0 / 89%);
+	
+}
+.imgtext{
+	font-size:15px;
+	padding-top:100px;
+	padding-left:10px;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+#news_big .imgtext{
+	font-size:40px;
+	padding-top:300px;
+}
+
+#news_big .premiera{
+	font-size:20px;
+	background-color:red;
+	width:90px;
+	padding:5px;
+	border-radius:5px;
+	text-shadow: 1px 1px 1px rgb(0 0 0 / 89%);
+	
+}
+#reser{
+	width:120px;
+	margin-left:280px;
+	margin-top:20px;
+	width:200px;
+	height:60px;
+	border-radius:20px;
+}
+
+#reser2{
+	width:120px;
+	margin-left:400px;
+	margin-top:20px;
+	width:200px;
+	height:60px;
+	border-radius:20px;
+	margin-bottom:100px;
+}
+#buttonend{
+	height:80px;
+
+	width:100%;
+	display:block;
+
+	font-size:60px;
+}
+
+#cinemaconf{
+	width:800px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:20px;
+	border-top:1px solid black;
+}
+
+#billpage{
+	font-size:30px;
+	width:800px;
+	min-height:100px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:white;
+	padding:100px;
+
+}
+.seatdesc{
+	width:550px;
+	display:block;
+}
+.seatlabel{
+	width:350px;
+	float:left;
+	font-size:50px;
+}
+#priceR{
+	float:right;
+}
+.seatnumber{
+	width:200px;
+	float:left;
+	font-size:40px;
+}
+.seatnumber select{
+	width:400px;
+	height:40px;
+	font-size:60px;
+	float:left;
+}
+.seatnumber option{
+	width:200px;
+	height:40px;
+	font-size:30px;
+	float:left;
+}
+#billpageL{
+	width:100%;
+	min-height:100px;
+
+	margin-left:auto;
+	margin-right:auto;
+}
+#billpageR{
+		margin-left:auto;
+	margin-right:auto;
+	width:500px;
+	min-height:100px;
+	font-size:60px;
+	text-align:center;
+	}
+
+#control_panel{
+	width:100vw;
+	min-height:100vh;
+	overflow:scrollbar;
+	background-color:darkred;
+}
+#confirmbtn{
+	height:80px;
+
+	width:100%;
+	display:block;
+
+	font-size:60px;
+}
+.cinema2{
+
+	min-height:100px;
+	width:100%;
+	text-align:center;
+	
+float:left;
+}
+#logss{
+	margin-left:auto;
+	margin-right:auto;
+	width:300px;
+	text-align:center;
+	font-size:30px;
+}
+#logb{
+	width:300px;
+height:50px;
+font-size:30px;
+}
+#logss input{
+width:300px;
+height:50px;
+font-size:30px;
+margin-left:auto;
+margin-right:auto;
+}
+#legenda{
+	width:900px;
+	height:40px;
+	margin-left:auto;
+	margin-right:auto;
+	font-size:30px;
+	tex-align:center;
+	}
+.kolob{
+	width:40px;
+	height:40px;
+	border-radius:40px;
+	background-color:white;
+	border:1px solid black;
+	float:left;
+	text-align:center;
+	color:black;
+	margin-left:10px;
+	margin-right:20px;
+}
+.f{
+	float:left;
+}
+.kolos{
+	width:40px;
+	height:40px;
+	border-radius:40px;
+	background-color:gray;
+	float:left;
+		text-align:center;
+	color:gray;
+		margin-left:10px;
+	margin-right:20px;
+	border:1px solid black;
+}
+.koloc{
+	width:40px;
+	height:40px;
+	border-radius:40px;
+	background-color:Crimson;
+	float:left;
+		text-align:center;
+	color:Crimson;
+		margin-left:10px;
+	margin-right:20px;
+	border:1px solid black;
+}
+
+
+
+}
+
+
+a:hover{
+	color:black;
+}
+a:active{
+	color:black;
+}
+a:visited{
+	color:black;
+}
+
+
+
+
